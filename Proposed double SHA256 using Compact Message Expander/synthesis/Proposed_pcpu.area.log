@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : sha256_core
+Version: M-2016.12-SP2
+Date   : Mon Jan  6 23:44:33 2020
+****************************************
+
+Library(s) Used:
+
+    ROHM18_WO_FF (File: /home/hoailuan/proj-emin/rohm18/rohm018lib/synthesis/lib/ROHM18_WO_FF.db)
+    ROHM18_FF (File: /home/hoailuan/proj-emin/rohm18/rohm018lib/synthesis/lib/ROHM18_FF.db)
+
+Number of ports:                       417415
+Number of nets:                        796392
+Number of cells:                       351217
+Number of combinational cells:         268677
+Number of sequential cells:             80981
+Number of macros/black boxes:               0
+Number of buf/inv:                     113127
+Number of references:                      10
+
+Combinational area:            4876523.260638
+Buf/Inv area:                  1102600.371846
+Noncombinational area:         5409863.602409
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:              10286386.863048
+Total area:                 undefined
+1
