@@ -1,0 +1,59 @@
+Loading db file '/home/hoailuan/proj-emin/rohm18/rohm018lib/synthesis/lib/ROHM18_FF.db'
+Loading db file '/home/hoailuan/proj-emin/rohm18/rohm018lib/synthesis/lib/ROHM18_WO_FF.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : sha256_core
+Version: M-2016.12-SP2
+Date   : Mon Jan  6 16:23:14 2020
+****************************************
+
+
+Library(s) Used:
+
+    ROHM18_WO_FF (File: /home/hoailuan/proj-emin/rohm18/rohm018lib/synthesis/lib/ROHM18_WO_FF.db)
+    ROHM18_FF (File: /home/hoailuan/proj-emin/rohm18/rohm018lib/synthesis/lib/ROHM18_FF.db)
+
+
+Operating Conditions: typical   Library: ROHM18_FF
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+sha256_core            wl1               ROHM18_FF
+
+
+Global Operating Voltage = 1.8  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+  Cell Internal Power  = 158.1839 mW   (59%)
+  Net Switching Power  = 108.0841 mW   (41%)
+                         ---------
+Total Dynamic Power    = 266.2679 mW  (100%)
+
+Cell Leakage Power     =  20.8593 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register         113.9876           34.7619        1.1089e+04          148.7562  (  55.86%)
+sequential         0.0000        5.8734e-03            0.0000        5.8734e-03  (   0.00%)
+combinational     44.2054           73.3070        9.7699e+03          117.5234  (  44.13%)
+--------------------------------------------------------------------------------------------------
+Total            158.1930 mW       108.0748 mW     2.0859e+04 nW       266.2855 mW
+1
